@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+
+}
+.salt{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(174, 10, 10);
+}
+
+ #Navbar{
+    background-color: rgb(0, 0, 0);
+}
+ul{
+    color: rgb(254, 254, 254);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+li{
+    padding-top: 20px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.logo1{
+    padding-right: 500px;
+    padding-bottom: 20px;
+}
+.Franchise button{
+    padding: 6px;
+    font-size: 13px; 
+    background-color: black;
+    color: #fef8f8;
+    border-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;  
+
+}
+.online-order button{
+    padding-bottom: 3px;
+    padding: 5px;
+    font-size: 13px; 
+    background-color: rgb(186, 29, 29);
+    color: #fef8f8;
+    border-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;  
+
+}
+.list1{
+    padding-top: 30px;
+    font-size: 14px;
+}
+#introduction{
+    padding-top: 55px;
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+}
+/* .heading1{
+
+} */
+.para1{
+    padding-top: 20px;
+}
+.introduction-img{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img3{
+    background-color: aliceblue;
+    margin: 25px;
+   
+}
+
+.buttons{
+    padding: 5px;
+    font-size: 15px; 
+    background-color: rgb(6, 6, 6);
+    color: #fef8f8;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;  
+}
+
+#background-s{
+    background-color: #0F0F0F;
+    background-image: url(./backgrounds.webp);
+    background-repeat: no-repeat ;
+    height: 1400px;
+    background-position: right center;
+    justify-content: right;
+    padding-top: 5px;
+}
+.heading2{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 25px;
+}
+.resturant-franchise1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 50px;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+.resturant-franchise1-para1{
+    color: white;
+    margin: 20px;
+}
+.islamabad{
+    color: rgb(174, 10, 10);
+}
+.Get-Direction{
+    padding: 5px;
+    font-size: 15px; 
+    background-color: rgb(6, 6, 6);
+    color: #fef8f8;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#background-p{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url(./backgroundp.webp);
+    background-repeat: no-repeat ;
+    background-size: 250px;
+    height: 1800px;
+    background-position: left center;
+    justify-content: left;
+}
+
+#heading3{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    margin: auto;
+}
+.express-franchises{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.express-franchises2{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.express-franchises3{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.express-franchises-img{
+    background-color: aliceblue;
+    margin: 25px;
+    width: 250px;
+    
+}
+.express-franchises-img2{
+    background-color: aliceblue;
+    margin: 25px;
+    width: 250px;
+    padding-right: 10px;
+}
+
+#shadow-background{
+    background-image: url(./shadow.webp);
+    background-repeat: no-repeat ;
+    height: 600px;
+    width: 100%;
+    background-position: right center;
+    justify-content: right;
+    padding-top: 5px;
+
+}
+.express-franchises-img3{
+    background-color: aliceblue;
+    margin: 25px;
+    width: 250px;
+    padding-right: 20px;
+    
+}
+.express-franchises-para{
+    color: aliceblue;
+}
+
+#village-franchise{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0F0F0F;
+    height: 500px;
+    width: 100%;
+}
+
+#heading4{
+    background-color: #0F0F0F;
+    height: 100px;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: large;
+}
+.Get-Direction2{
+    padding: 5px;
+    font-size: 15px; 
+    background-color: rgb(28, 160, 80);
+    color: #fef8f8;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.village-franchise1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.village-franchise1-para1{
+    color: white;
+    margin: 30px;
+}
+.Gujranwala{
+    color: rgb(174, 10, 10);
+}
+#express-franchises-opening-soon{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 900px;
+}
+#heading5{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+    margin: auto;
+    font-weight: 900;
+}
+.carts9{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.opening-1{
+    box-sizing: border-box;
+    background-color: #fef8f8;
+    border: 2px solid white;
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+#social{
+    height: 400px;
+    width: 100%;
+}
+.heading6{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+}
+.social-carts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.social-imgs{
+    height: 200px;
+    /* margin: 20px; */
+}
+#footer{
+    background-color: #0F0F0F;
+    background-image: url(./backgrounds.webp);
+    background-repeat: no-repeat ;
+    height: 350px;
+    width: 100%;
+    background-position: left center;
+    justify-content: center;
+    padding-top: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.footer1{
+    color: aliceblue;
+   
+}
+.footer2 {
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.footer3{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.footerpara{
+    margin: 10px;
+    line-height: 2.0em;
+}
+.footer4{
+    color: aliceblue;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.icons{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: #151515;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-p1{
+    color: rgb(116, 112, 112);
+    padding-top: 10px;
+}
+
+.r1{
+    color: aliceblue;
+}
+.container-p2{
+    color: rgb(116, 112, 112);
+    padding-top: 10px;
+  
+}
